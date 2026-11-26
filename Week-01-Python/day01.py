@@ -27,7 +27,7 @@ elif c == "-":
     print( a - b)
 
 elif c == "*":
-    print( a * b)
+    print( a * b) 
 
 elif c == "/":
     if b != 0:
@@ -58,9 +58,9 @@ else:
 # 3rd problem
 
 
-prime numbers
+# prime numbers
 
-num = int(input("num:))
+num = int(input("number: "))
 
 count = 0
 
@@ -80,7 +80,7 @@ else:
 # sum of digits
 #  1234 => 1+2+3+4 = 10
 
-num = int(input("num:"))
+num = int(input("number: "))
 tot = 0
 for i in range(num):
     dig = num % 10
